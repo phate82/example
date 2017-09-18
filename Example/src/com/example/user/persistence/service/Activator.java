@@ -23,9 +23,7 @@ public class Activator extends DependencyActivatorBase {
 		dm.add(createComponent()
 	        	.setInterface(UserPersistenceService.class.getName(), null)
 	            .setImplementation(UserPersistenceServiceImpl.class)
-	            .add(createServiceDependency()
-	                .setService(MongoDBService.class)
-	                .setRequired(true)));
+	            .add(createServiceDependency().setService(MongoDBService.class).setRequired(true)));
 	}
 
 }
