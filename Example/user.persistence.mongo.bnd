@@ -1,0 +1,3 @@
+Private-Package: com.example.user.persistence.service
+Bundle-Version: 1.0.0
+Bundle-Activator: com.example.user.persistence.service.Activator
